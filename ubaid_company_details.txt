@@ -1,0 +1,15 @@
+company_logo
+company_name
+company_email
+company_web_url
+company_linkedin_url
+company_position
+company_about
+company_revenue
+company_address
+company_country
+company_state
+company_city
+company_county
+company_zip_code
+company_

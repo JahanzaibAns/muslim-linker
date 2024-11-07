@@ -48,6 +48,9 @@
     <section class="stepper_form">
         <div class="container">
             <form action="" class="user_form">
+                <div class="section_heading">
+                    <h1>User Details</h1>
+                </div>
                 <div class="row">
                     <div class="col-lg-6">
                         <label for="first_name">First Name:</label>
@@ -116,15 +119,28 @@
                     </div>
                     <div class="col-lg-6">
                         <label for="industry_to_connect">Industry to Connect:</label>
-                        <input type="text" name="industry_to_connect" id="industry_to_connect" class="form-control">
+                        <!-- <input type="text" name="industry_to_connect" id="industry_to_connect" class="form-control"> -->
+                         <select name="industry_to_connect" id="industry_to_connect" class="form-select">
+                            <option value="">Select Industry</option>
+                         </select>
                     </div>
                     <div class="col-lg-6">
                         <label for="sub_category_to_connect">Sub Category to Connect:</label>
-                        <input type="text" name="sub_category_to_connect" id="sub_category_to_connect" class="form-control">
+                        <!-- <input type="text" name="sub_category_to_connect" id="sub_category_to_connect" class="form-control"> -->
+                        <select name="sub_category_to_connect" id="sub_category_to_connect" class="form-select">
+                            <option value="">Select Sub Category</option>
+                         </select>
                     </div>
                     <div class="col-lg-6">
                         <label for="community_interest">Community Interest:</label>
-                        <input type="text" name="community_interest" id="community_interest" class="form-control">
+                        <!-- <input type="text" name="community_interest" id="community_interest" class="form-control"> -->
+                        <select name="community_interest" id="community_interest" class="form-select">
+                            <option value="">Select Community Interest</option>
+                         </select>
+                    </div>
+                    <div class="col-12 mt-4 text-end">
+
+                        <a href="javascript:void(0);" class="btn theme-btn">Next</a>
                     </div>
                 </div>
             </form>
