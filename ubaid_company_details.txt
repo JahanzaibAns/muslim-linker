@@ -12,4 +12,10 @@ company_state
 company_city
 company_county
 company_zip_code
-company_
+company_no_of_employee
+company_business_type
+company_industry
+company_sub_category
+company_community_service
+company_contribute_to_muslim_community
+company_affiliation_to_muslim_org
